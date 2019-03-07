@@ -6,6 +6,7 @@
   padding-left: 0;
 }
 
-* {
-  border-radius: 0 !important;
+.add-todo-button,
+.todo-form-input {
+  border-radius: 0;
 }

@@ -4,12 +4,8 @@
   color: grey;
 }
 
-.todo-list {
-  /* background-color: red; */
-}
-
 .delete-button {
-  border-radius: 100% !important;
+  border-radius: 100%;
   float: right;
 }
 
