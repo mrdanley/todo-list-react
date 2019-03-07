@@ -24,6 +24,13 @@ class App extends Component<{}, State> {
     };
   }
 
+  public componentDidMount() {
+    const todoJSON = localStorage.getItem("todos");
+    if (todoJSON) {
+      this.setState({ todos: JSON.parse(todoJSON) });
+    }
+  }
+
   public render() {
     const { todos } = this.state;
     return (
@@ -37,6 +44,8 @@ class App extends Component<{}, State> {
 
   private handleSetTodos(todos: TodoItem[]) {
     this.setState({ todos });
+
+    localStorage.setItem("todos", JSON.stringify(todos));
   }
 }
 
