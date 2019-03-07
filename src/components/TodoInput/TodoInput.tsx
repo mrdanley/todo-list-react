@@ -29,7 +29,7 @@ class TodoInput extends Component<Props, State> {
             <Col sm={8} md={9} lg={10} className="input-col">
               <Form.Control
                 type="input"
-                placeholder="Buy groceries"
+                placeholder="Ex. Buy groceries"
                 value={this.state.todoInput}
                 onChange={(e: any) =>
                   this.setState({ todoInput: e.target.value })

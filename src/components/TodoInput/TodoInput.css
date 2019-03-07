@@ -6,6 +6,6 @@
   padding-left: 0;
 }
 
-.todo-input-bar {
-  /* background-color: black; */
+* {
+  border-radius: 0 !important;
 }
