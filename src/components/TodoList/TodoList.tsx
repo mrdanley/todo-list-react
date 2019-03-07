@@ -19,9 +19,19 @@ class TodoList extends Component<Props, State> {
         {todos.length === 0 ? (
           <div className="empty-list">No Todos</div>
         ) : (
-          <Table striped bordered hover>
-            <tbody>{this.createTodoList()}</tbody>
-          </Table>
+          <React.Fragment>
+            <Button
+              variant="secondary"
+              onClick={() => this.props.setTodos([])}
+              block
+              className="clear-todos-button"
+            >
+              Clear all items
+            </Button>
+            <Table striped bordered hover>
+              <tbody>{this.createTodoList()}</tbody>
+            </Table>
+          </React.Fragment>
         )}
       </div>
     );

@@ -15,3 +15,7 @@ input[type="checkbox"] {
   -webkit-transform: scale(2);
   padding: 10px;
 }
+
+.clear-todos-button {
+  border-radius: 0;
+}
