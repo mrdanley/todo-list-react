@@ -1,12 +1,12 @@
 .input-col {
-  padding-right: 0;
+    padding-right: 0;
 }
 
 .button-col {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .add-todo-button,
 .todo-form-input {
-  border-radius: 0;
+    border-radius: 0;
 }

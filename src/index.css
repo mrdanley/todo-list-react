@@ -1,17 +1,17 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ::-webkit-input-placeholder {
-  font-style: italic;
+    font-style: italic;
 }
 :-moz-placeholder {
-  font-style: italic;
+    font-style: italic;
 }
 ::-moz-placeholder {
-  font-style: italic;
+    font-style: italic;
 }
 :-ms-input-placeholder {
-  font-style: italic;
+    font-style: italic;
 }

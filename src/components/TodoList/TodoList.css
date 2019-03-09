@@ -1,21 +1,21 @@
 .empty-list {
-  font-size: 50px;
-  text-align: center;
-  color: grey;
+    font-size: 50px;
+    text-align: center;
+    color: grey;
 }
 
 .delete-button {
-  border-radius: 100%;
-  float: right;
+    border-radius: 100%;
+    float: right;
 }
 
 input[type="checkbox"] {
-  transform: scale(2);
-  -ms-transform: scale(2);
-  -webkit-transform: scale(2);
-  padding: 10px;
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    padding: 10px;
 }
 
 .clear-todos-button {
-  border-radius: 0;
+    border-radius: 0;
 }
